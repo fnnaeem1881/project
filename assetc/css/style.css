@@ -1,0 +1,229 @@
+*{
+  margin: 0; padding: 0;
+}
+html {
+  scroll-behavior: smooth!important;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.wrap{
+  width: 100%;
+  position: relative;
+
+}
+.section{
+  background: #000;
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  scroll-behavior: smooth;
+}
+.section{
+  background: url(../images/main.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 143px;
+  background: url(../images/wave.png);
+  animation: naeem 10s linear infinite;
+}
+@keyframes naeem{
+  0%{
+      background-position: 0;
+  }
+  100%{
+      background-position: 1360px;
+  }
+}
+.wave::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 143px;
+  background: url(../images/wave.png);
+  opacity: .8;
+  animation: ayri 10s linear infinite;
+
+}
+@keyframes ayri{
+  0%{
+      background-position: 1360px;
+  }
+  100%{
+      background-position: 0;
+  }
+}
+.wave::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  animation-delay: -5s ;
+  height: 143px;
+  background: url(../images/wave.png);
+  opacity: .6;
+  animation: naeem 20s linear infinite;
+
+}
+@keyframes naeem{
+  0%{
+      background-position: 0;
+  }
+  100%{
+      background-position: 1360px;
+  }
+}
+
+
+ul {
+  list-style: none;
+}
+
+nav{
+  background: #000000;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 99999999999999;
+}
+span.logo img {
+  width: 13%;
+  padding: 15px;
+}
+nav ul{
+  float: right;
+ 
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+ nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 999999999999;
+  }
+  nav ul li{
+    display: block;
+    margin: 32px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
+
+
+.hero-img {
+  width: 50%;
+  float: left;
+}
+
+.main-wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.hero-img img {
+  width: 50%;
+  border-radius: 100px 0px;
+  border-left-color: tomato!important;
+  border: solid 2px;
+  border-right-color: green;
+  border-top-color: #fff;
+  border-bottom-color: blue;
+  border-left-style: dashed;
+  border-right-style: dashed;
+}
+.main-title {
+  line-height: 50px;
+  color: #000;
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: cursive;
+  box-sizing: border-box;
+  box-shadow: 1px 0px 15px 9px #587088;
+}
+.title {
+  font-size: 30px;
+  text-align: center;
+padding-top:30px;
+
+}
+.home-title p {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+  color: #ffffff;
+  font-family: cursive;
+}
