@@ -5,6 +5,7 @@ html {
   scroll-behavior: smooth!important;
 }
 img{
+  margin-bottom: -5px;
   max-width: 100%;
 }
 .container{
@@ -363,4 +364,68 @@ hr.separetor {
   margin-top: 40px;
   opacity: .3;
   border: 1px solid #dddddd69;
+}
+
+
+
+/* Experiance design */
+
+.exper-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.exper-title span {
+  color: #838383;
+}
+
+.exper-title h1 {
+  font-size: 30px;
+  padding: 15px;
+  font-weight: 500;
+  color: #544545;
+  font-family: monospace;
+}
+.my-experi {
+  width: 47%;
+  float: left;
+  padding: 10px;
+}
+
+.my-expri-title {
+  padding: 20px 0px;
+  color: #333030ab;
+  font-size: 14px;
+}
+.my-experi-box {
+    border: solid 1px #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.my-experi-box-title h3 {
+    font-weight: 500;
+    font-family: cursive;
+    padding-bottom: 15px;
+    color: #000000b0;
+}
+
+.my-experi-box span {
+    background: #593EFF;
+    padding: 3px 11px;
+    color: #fff;
+}
+
+.my-experi-box p {
+    padding: 20px 0px 0px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+}
+.my-edu {
+  width: 47%;
+  float: left;
+  margin-left: 23px;
+  padding: 10px;
 }
