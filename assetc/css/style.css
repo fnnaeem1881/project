@@ -11,6 +11,9 @@ img{
   width: 80%;
   margin: auto;
 }
+a{
+  text-decoration: none;
+}
 .wrap{
   width: 100%;
   position: relative;
