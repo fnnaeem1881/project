@@ -64,6 +64,24 @@
         line-height: 25px;
         text-align: center;
     }
+    .skill-wrap {
+        width: 45%;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .my-experi {
+        width: 45%;
+        float: left;
+        padding: 10px;
+    }
+    .loc-box {
+        width: 29%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+    }
     
 }
 
@@ -111,6 +129,43 @@
         font-size: 12px;
         line-height: 25px;
         text-align: center;
+    }
+    .skill-wrap {
+        width: 46%;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .my-experi {
+        width: 45%;
+        float: left;
+        padding: 10px;
+    }
+    .loc-box {
+        width: 29%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .loc-box a {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 12px 0px;
+        color: #766;
+        background: transparent;
+    }
+    input.yrname {
+        width: 45%;
+        float: left;
+        padding: 13px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        background: #dedede;
+        border: none;
+        font-size: 16px;
     }
 }
 
@@ -185,6 +240,80 @@
         line-height: 25px;
         text-align: center;
     }
+    .skill-wrap {
+        width: 100%;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .my-experi-box {
+        border: solid 1px #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 160px;
+    }
+    .my-experi {
+        width: 42%;
+        float: left;
+        padding: 10px;
+    }
+    .my-experi-box-title h3 {
+        font-weight: 500;
+        font-family: cursive;
+        padding-bottom: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .my-experi-box p {
+        padding: 20px 0px 0px;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .my-experi-box span {
+        background: #593EFF;
+        padding: 3px 11px;
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        text-align: center;
+    }
+    .service-box {
+        width: 47%;
+        background: url(../images/services1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .loc-box {
+        width: 28%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .loc-box a {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 12px 0px;
+        color: #766;
+        background: transparent;
+    }
+    input.yrname {
+        width: 43%;
+        float: left;
+        padding: 15px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        background: #dedede;
+        border: none;
+        font-size: 16px;
+    }
 }
 
 
@@ -232,6 +361,58 @@
         /* position: relative; */
         margin-bottom: 15px;
         margin-right: 18px;
+    }
+    .my-edu {
+        width: 74%;
+        float: left;
+        /* margin-left: 23px; */
+        padding: 10px;
+    }
+    .my-experi {
+        width: 74%;
+        float: left;
+        padding: 10px;
+    }
+    .my-experi-box {
+        border: solid 1px #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 160px;
+        margin-left: 20%;
+    }
+    .service-box {
+        width: 100%;
+        background: url(../images/services1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .hire-me h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        font-family: cursive;
+    }
+    .loc-box {
+        width: 95%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    input.yrname {
+        width: 94%;
+        float: left;
+        padding: 15px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        background: #dedede;
+        border: none;
+        font-size: 16px;
     }
 }
 
@@ -289,6 +470,43 @@
         /* margin-bottom: 15px; */
         margin-left: 20%;
     }
+    .my-edu {
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .my-experi {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .my-experi-box {
+        border: solid 1px #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 160px;
+        margin-left: 0%;
+    }
+    .hire-me h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-family: cursive;
+    }
+    .hire-me button a {
+        color: #ffff;
+        background: #151e37db;
+        padding: 12px 40px;
+    }
+    .loc-box {
+        width: 94%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -345,6 +563,27 @@
         margin-left: 20%;
        
     }
+    .hire-me h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        font-family: cursive;
+    }
+    .hire-me button a {
+        color: #ffff;
+        background: #151e37db;
+        padding: 8px 8px;
+        font-size: 11px;
+    }
+    .loc-box {
+        width: 84%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
 }
 
 
