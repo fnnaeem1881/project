@@ -76,6 +76,42 @@
         width: 35%;
         padding: 27px 0px;
     }
+    .main-wrap {
+        display: flex;
+        align-items: center;
+        padding-top: 95px;
+    }
+    .main-title {
+        position: absolute;
+        font-size: 9px;
+        line-height: 28px;
+        color: #000;
+        background: #ddd;
+        padding: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-family: cursive;
+        box-sizing: border-box;
+        box-shadow: 1px 0px 15px 9px #587088;
+        bottom: 27%;
+    }
+    .hero-img img {
+        width: 100%;
+        border-radius: 45px 0px;
+        border-left-color: tomato!important;
+        border: solid 2px;
+        border-right-color: green;
+        border-top-color: #fff;
+        border-bottom-color: blue;
+        border-left-style: dashed;
+        border-right-style: dashed;
+    }
+    .hero-img {
+        width: 55%;
+        /* float: left; */
+        margin-left: 40px;
+        margin-bottom: 27px;
+    }
 }
 
 
