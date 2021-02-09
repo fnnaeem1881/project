@@ -4,6 +4,42 @@
         width: 15%;
         padding: 15px;
     }
+    .hero-img {
+        width: 50%!important;
+        float: left;
+        margin-left: 0%!important;
+      }
+      
+      .main-wrap {
+        display: flex;
+        align-items: center;
+        padding-top: 120px!important;
+      }
+      
+      .hero-img img {
+        width: 50%!important;
+        border-radius: 100px 0px!important;
+        border-left-color: tomato!important;
+        border: solid 2px;
+        border-right-color: green;
+        border-top-color: #fff;
+        border-bottom-color: blue;
+        border-left-style: dashed;
+        border-right-style: dashed;
+      }
+      .main-title {
+        line-height: 40px!important;
+        color: #000;
+        font-size: 15px!important;
+        background: #ddd;
+        padding: 20px!important;
+        text-align: center;
+        font-weight: 700;
+        font-family: cursive;
+        box-sizing: border-box;
+        box-shadow: 1px 0px 15px 9px #587088;
+        bottom: 40%!important;
+      }
 }
 
 
