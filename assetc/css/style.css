@@ -210,7 +210,7 @@ a.active,a:hover{
 .main-title {
   line-height: 50px;
   color: #000;
-  background: #ddd;
+  background: #dddddd38;
   padding: 20px;
   text-align: center;
   font-weight: 700;
@@ -304,7 +304,7 @@ section#about {
   font-size: 20px;
 }
 
-.project--des:before {content: '';width: 40px;height: 1px;background: #7777;position: absolute;top: 64%;left: 7%;}
+/* .project--des:before {content: '';width: 40px;height: 1px;background: #7777;position: absolute;top: 64%;left: 7%;} */
 
 .project--des p {
   font-size: 18px;
@@ -372,7 +372,6 @@ hr.separetor {
 /* Experiance design */
 
 .exper-title {
-  margin-top: 110px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -440,9 +439,30 @@ section#services {
   padding-top: 60px;
   padding-bottom: 50px;
 }
+.service-box {
+    width: 30%;
+    background: url(../images/services1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
 
+.ser-ico i {font-size: 41px;color: #2d2b2b;}
 
-.flip-box {
+.ser-ico {
+    text-align: center;
+}
+
+.se-b-t h2 {
+    text-align: center;
+    padding: 9px 0px;
+    color: #37342e;
+}
+
+/* .flip-box {
   width: 30%;
   height: 230px;
   border: 1px solid #f1f1f1;
@@ -489,7 +509,7 @@ section#services {
 .service-body {
     padding-bottom: 50px;
 }
-.flip-box-front h2 {position: relative;top: 46%;background: #fff;width: 51%;margin: auto;padding: 9px 0px;font-size: 15px;}
+.flip-box-front h2 {position: relative;top: 46%;background: #fff;width: 51%;margin: auto;padding: 9px 0px;font-size: 15px;} */
 .box-ico {
   font-size: 50px;
   margin-top: 30px;
@@ -499,11 +519,15 @@ section#services {
 .se-b-t {
   padding: 10px;
 }
-
-.flip-box-back p {
+.ser-bg {
+    background: #ffffffa8;
+    padding: 14px;
+}
+.service-box p {
   text-align: center;
   padding: 0px 37px;
   line-height: 24px;
+  color: #5a5454;
 }
 .front-image-2 {
   background: url(../images/services2.jpg);
