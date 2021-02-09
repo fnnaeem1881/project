@@ -20,6 +20,9 @@ a{
   position: relative;
 
 }
+.wave-png img {
+  width: 100%;
+}
 .section{
   background: #000;
   height: 100vh;
