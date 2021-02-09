@@ -429,3 +429,154 @@ hr.separetor {
   margin-left: 23px;
   padding: 10px;
 }
+section#experiance {
+  overflow: hidden;
+}
+/* service  */
+section#services {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+
+.flip-box {
+  width: 30%;
+  height: 230px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background: url(../images/services1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
+.service-body {
+    padding-bottom: 50px;
+}
+.flip-box-front h2 {position: relative;top: 46%;background: #fff;width: 51%;margin: auto;padding: 9px 0px;font-size: 15px;}
+.box-ico {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.se-b-t {
+  padding: 10px;
+}
+
+.flip-box-back p {
+  text-align: center;
+  padding: 0px 37px;
+  line-height: 24px;
+}
+.front-image-2 {
+  background: url(../images/services2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+.front-image-3 {
+  background: url(../images/services3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+.front-image-4 {
+  background: url(../images/services4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+.front-image-5 {
+  background: url(../images/services5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+.front-image-6 {
+  background: url(../images/services6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+
+/* Hire me */
+
+section#hire-me{
+  background: url(../images/hire.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-attachment: fixed;
+  margin-bottom: 50px;
+}
+.hire-me {
+  top: 50%;
+  left: 50%;
+  padding: 100px;
+}
+
+.hire-me h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.hire-me button {
+  display: flex;
+  margin: auto;
+  font-size: 16px;
+  margin-top: 40px;
+  background: transparent;
+  border: none;
+}
+
+.hire-me button a {
+  color: #ffff;
+  background: #151e37db;
+  padding: 13px 45px;
+}
+.bg-color {
+  background: #ffffff26;
+}
