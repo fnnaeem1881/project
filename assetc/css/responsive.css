@@ -29,7 +29,7 @@
       }
       .main-title {
         line-height: 40px!important;
-        color: #000;
+        color: #fff;
         font-size: 15px!important;
         background: #dddddd38;
         padding: 20px!important;
@@ -40,6 +40,31 @@
         box-shadow: 1px 0px 15px 9px #587088;
         bottom: 40%!important;
       }
+      .project-complete {
+        width: 45%;
+        float: left;
+        color: #fff;
+        padding-top: 27px;
+    }
+    .project-box {
+        float: left;
+        border: solid 1px #524c4c;
+        padding: 20px;
+        width: 32%;
+        /* position: relative; */
+        margin-bottom: 15px;
+        margin-right: 18px;
+    }
+    .project-count h1 {
+        font-size: 40px;
+        color: #FFB400;
+    }
+    .project--des p {
+        font-size: 13px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
 }
 
 
@@ -49,7 +74,44 @@
         width: 20%;
         padding: 15px;
     }
-
+    .name-details ul li {
+        width: 42%;
+        float: left;
+        line-height: 33px;
+        color: #ffffffb5;
+        font-family: monospace;
+        font-size: 10px;
+    }
+    .project-complete {
+        width: 45%;
+        float: left;
+        color: #fff;
+        padding-top: 27px;
+    }
+    .project-box {
+        float: left;
+        border: solid 1px #524c4c;
+        padding: 20px;
+        width: 30%;
+        /* position: relative; */
+        margin-bottom: 15px;
+        margin-right: 18px;
+    }
+    .project-complete {
+        width: 45%;
+        float: left;
+        color: #fff;
+        padding-top: 27px;
+    }
+    .project-count h1 {
+        font-size: 35px;
+        color: #FFB400;
+    }
+    .project--des p {
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+    }
 }
 
 
@@ -63,7 +125,7 @@
 @media(max-width: 991px){
     .main-title {
         line-height: 35px;
-        color: #000;
+        color: rgb(255, 254, 254);
         font-size: 11px;
         background: #dddddd38;
         padding: 20px;
@@ -83,6 +145,45 @@
         border-bottom-color: blue;
         border-left-style: dashed;
         border-right-style: dashed;
+    }
+    .personal-info {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        color: #fff;
+        margin-right: 20px;
+    }
+    .name-details ul li {
+        width: 42%;
+        float: left;
+        line-height: 33px;
+        color: #ffffffb5;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    .project-complete {
+        width: 100%;
+        float: left;
+        color: #fff;
+        padding-top: 27px;
+    }
+    .project-box {
+        float: left;
+        border: solid 1px #524c4c;
+        padding: 20px;
+        width: 40%;
+        /* position: relative; */
+        margin-bottom: 15px;
+        margin-right: 18px;
+    }
+    .project-count h1 {
+        font-size: 50px;
+        color: #FFB400;
+    }
+    .project--des p {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
     }
 }
 
@@ -105,7 +206,7 @@
     }
     .main-title {
         line-height: 22px;
-        color: #000;
+        color: rgb(255, 255, 255);
         font-size: 8px;
         background: #dddddd38;
         padding: 20px;
@@ -114,6 +215,23 @@
         font-family: cursive;
         box-sizing: border-box;
         box-shadow: 1px 0px 15px 9px #587088;
+    }
+    .name-details ul li {
+        width: 42%;
+        float: left;
+        line-height: 33px;
+        color: #ffffffb5;
+        font-family: monospace;
+        font-size: 11px;
+    }
+    .project-box {
+        float: left;
+        border: solid 1px #524c4c;
+        padding: 20px;
+        width: 35%;
+        /* position: relative; */
+        margin-bottom: 15px;
+        margin-right: 18px;
     }
 }
 
@@ -129,7 +247,7 @@
     }
     .main-title {
         line-height: 22px;
-        color: #000;
+        color: rgb(255, 255, 255);
         font-size: 6px;
         background: #dddddd38;
         padding: 20px;
@@ -149,6 +267,27 @@
         border-bottom-color: blue;
         border-left-style: dashed;
         border-right-style: dashed;
+    }
+    .name-details ul li {
+        width: 100%;
+        float: left;
+        line-height: 33px;
+        color: #ffffffb5;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    .personal-info-title {
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .project-box {
+        float: left;
+        border: solid 1px #524c4c;
+        padding: 20px;
+        width: 55%;
+        /* position: relative; */
+        /* margin-bottom: 15px; */
+        margin-left: 20%;
     }
 }
 
@@ -178,7 +317,7 @@
         position: absolute;
         font-size: 9px;
         line-height: 28px;
-        color: #000;
+        color: rgb(255, 255, 255);
         background: #dddddd38;
         padding: 20px;
         text-align: center;
@@ -238,7 +377,7 @@
         position: absolute;
         font-size: 9px;
         line-height: 28px;
-        color: #000;
+        color: #fff;
         background: #dddddd38;
         padding: 20px;
         text-align: center;

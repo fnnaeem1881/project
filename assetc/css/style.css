@@ -209,7 +209,7 @@ a.active,a:hover{
 }
 .main-title {
   line-height: 50px;
-  color: #000;
+  color: rgb(255, 255, 255);
   background: #dddddd38;
   padding: 20px;
   text-align: center;
