@@ -435,6 +435,12 @@
 /*-------------------------------*/
 
 @media(max-width: 575px){
+    .section {
+        background: url(../images/main.jpg);
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
     span.logo img {
         width: 35%;
         padding: 16px;
