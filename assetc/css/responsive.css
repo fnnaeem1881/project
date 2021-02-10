@@ -437,7 +437,7 @@
     .section {
         background: url(../images/main.jpg);
         background-size: cover;
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
     }
     
