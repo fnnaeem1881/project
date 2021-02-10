@@ -431,7 +431,6 @@
 
 
 
-
 /*-------------------------------*/
 
 @media(max-width: 575px){
@@ -441,6 +440,7 @@
         background-position: right;
         background-repeat: no-repeat;
     }
+    
     span.logo img {
         width: 35%;
         padding: 16px;
@@ -527,11 +527,13 @@
         margin-bottom: 20px;
     }
     .home-wra {
-        line-height: 55px;
+        line-height: 45px;
         padding: 20px;
         text-align: center;
         color: #fff;
         background: #07070738;
+        margin: auto;
+        margin-bottom: 10px;
     }
 }
 
@@ -540,7 +542,9 @@
 /*-------------------------------*/
 
 @media(min-width: 575px){
-
+    .hero-img {
+        display: none;
+    }
 }
 
 
@@ -548,6 +552,9 @@
 /*-------------------------------*/
 
 @media(max-width:450px){
+    .home-wra h1 {
+        font-size: 30px;
+    }
     span.logo img {
         width: 35%;
         padding: 27px 0px;
@@ -608,6 +615,11 @@
         padding: 10px;
         margin-right: 10px;
         margin-bottom: 20px;
+    }
+    .hero-img {
+        width: 64%;
+        /* float: left; */
+        margin-left: 23%;
     }
 
 }
