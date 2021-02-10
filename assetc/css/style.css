@@ -32,9 +32,9 @@ a{
   scroll-behavior: smooth;
 }
 .section{
-  background: url(../images/main.jpg);
+  background: url(../images/2.png);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 .wave{
@@ -186,7 +186,27 @@ a.active,a:hover{
 }
 
 
+.home-wra {
+  line-height: 55px;
+  padding: 20px;
+  color: #fff;
+}
 
+.home-wra h1 {font-size: 70px;}
+
+.home-wra h3 {
+  font-size: 25px;
+  color: #f96d43;
+  text-transform: capitalize;
+}
+
+.home-wra h4 {
+  font-size: 26px;
+}
+
+.home-wra span {
+  color: #FFB400;
+}
 
 .hero-img {
   width: 50%;
@@ -219,7 +239,7 @@ a.active,a:hover{
   font-weight: 700;
   font-family: cursive;
   box-sizing: border-box;
-  box-shadow: 1px 0px 15px 9px #587088;
+  box-shadow: 1px 0px 15px 9px #000000;
 }
 .main-title h1 {
   color: #ffb912;
@@ -288,6 +308,8 @@ section#about {
   border: none;
   border-radius: 20px;
   margin: 25px 0px;
+  transition: all .5s;
+  text-transform: uppercase;
 }
 .project-complete {
   width: 47%;
@@ -376,7 +398,10 @@ hr.separetor {
   opacity: .3;
   border: 1px solid #dddddd69;
 }
-
+.download-cv button:hover {
+    background: #000;
+    border: solid 1px tomato;
+}
 
 
 /* Experiance design */

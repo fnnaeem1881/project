@@ -13,7 +13,7 @@
       .main-wrap {
         display: flex;
         align-items: center;
-        padding-top: 120px!important;
+        padding-top: 170px!important;
       }
       
       .hero-img img {
@@ -37,7 +37,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
         bottom: 40%!important;
       }
       .project-complete {
@@ -188,7 +188,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
     }
     .hero-img img {
         width: 62%;
@@ -343,7 +343,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
     }
     .name-details ul li {
         width: 42%;
@@ -414,6 +414,19 @@
         border: none;
         font-size: 16px;
     }
+    .home-wra span {
+        color: #FFB400;
+        display: block;
+        font-size: 22px;
+    }
+    .home-wra h1 {
+        font-size: 40px;
+    }
+    .home-wra h3 {
+        font-size: 22px;
+        color: #f96d43;
+        text-transform: capitalize;
+    }
 }
 
 
@@ -436,7 +449,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
     }
     .hero-img img {
         width: 75%;
@@ -507,6 +520,13 @@
         margin-right: 10px;
         margin-bottom: 20px;
     }
+    .home-wra {
+        line-height: 55px;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        background: #07070738;
+    }
 }
 
 
@@ -542,7 +562,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
         bottom: 25%;
         right: 25%;
     }
@@ -623,7 +643,7 @@
         font-weight: 700;
         font-family: cursive;
         box-sizing: border-box;
-        box-shadow: 1px 0px 15px 9px #587088;
+        box-shadow: 1px 0px 15px 9px #000000;
         bottom: 34%;
         right: 22%;
     }
